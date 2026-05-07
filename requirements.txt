@@ -3,3 +3,4 @@ fastapi
 pandas
 pydantic
 decouple
+huggingface_hub
