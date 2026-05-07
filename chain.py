@@ -6,7 +6,7 @@ from decouple import config, RepositoryEnv
 #config = config(RepositoryEnv(os.path.join(os.getcwd(), '.env')))
 
 api_key = config('HF_API_KEY')
-FASTAPI_BASE_URL = 'http://127.0.0.1:8000'
+FASTAPI_BASE_URL = 'https://data-service-api-1.onrender.com'
 
 client = InferenceClient(api_key=api_key)
 
